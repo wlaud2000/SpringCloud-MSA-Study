@@ -22,27 +22,31 @@ ext {
 }
 
 dependencies {
+    // SpringBoot
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
+    // MySQL
     runtimeOnly 'com.mysql:mysql-connector-j'
 
+    // jpa
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
+    // lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
+    // test
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
 
-    // Security
+    // security
     implementation 'org.springframework.boot:spring-boot-starter-security'
 
-    // Eureka
+    // eureka-client(중요)
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 
-    //config-client
+    //config-client(중요)
     implementation 'org.springframework.cloud:spring-cloud-starter-config'
 }
 
