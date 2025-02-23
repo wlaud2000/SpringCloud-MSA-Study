@@ -1,13 +1,13 @@
-package com.project.springcloudmsastudy;
+package com.project.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringCloudMsaStudyApplication {
+public class ConfigServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudMsaStudyApplication.class, args);
+        SpringApplication.run(ConfigServerApplication.class, args);
     }
 
 }

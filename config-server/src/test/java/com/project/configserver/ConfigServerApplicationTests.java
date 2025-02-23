@@ -1,10 +1,10 @@
-package com.project.springcloudmsastudy;
+package com.project.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudMsaStudyApplicationTests {
+class ConfigServerApplicationTests {
 
     @Test
     void contextLoads() {
