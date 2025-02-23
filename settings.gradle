@@ -1,3 +1,4 @@
 rootProject.name = 'SpringCloud-MSA-Study'
 include("config-server")
 include("eureka-server")
+include("test")
