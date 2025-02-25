@@ -30,6 +30,9 @@ dependencies {
 
 	// Spring Cloud Gateway Webflux 사용
 	implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
+
+	// Eureka-Clinet 설정
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 }
 
 dependencyManagement {
