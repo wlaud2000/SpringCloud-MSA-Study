@@ -13,12 +13,6 @@ java {
 	}
 }
 
-configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
-}
-
 repositories {
 	mavenCentral()
 }
@@ -33,9 +27,6 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-
-	//config-client(중요)
-	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 
 	// eureka-client(중요)
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
